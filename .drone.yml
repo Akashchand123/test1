@@ -6,3 +6,5 @@ steps:
     image: alpine
     commands:
       - whoami
+      - ifconfig
+      - ls -la
