@@ -6,5 +6,5 @@ steps:
     image: alpine
     commands:
       - whoami
-      - for i in $(seq 254); do ping 172.23.0.${i} -c1 -W1 & done | grep from
+      - ping -c1 172.23.0.1
       
