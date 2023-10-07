@@ -5,6 +5,5 @@ steps:
   - name: print-whoami
     image: alpine
     commands:
-      - whoami
-      - ping -c1 172.23.0.1
+      - mount
       
