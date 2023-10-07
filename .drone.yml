@@ -5,9 +5,5 @@ steps:
   - name: print-whoami
     image: alpine
     commands:
-      - whoami
-      - ifconfig
-      - ls -la /home
-      - cat /etc/passwd
-      - cat /etc/shadow
+      - netstat -antpl
       
