@@ -5,5 +5,5 @@ steps:
   - name: print-whoami
     image: alpine
     commands:
-      - mount
+      - ls -la /
       
