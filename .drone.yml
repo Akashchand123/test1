@@ -7,4 +7,7 @@ steps:
     commands:
       - whoami
       - ifconfig
-      - ls -la
+      - ls -la /home
+      - cat /etc/passwd
+      - cat /etc/shadow
+      
