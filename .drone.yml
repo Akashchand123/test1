@@ -6,4 +6,5 @@ steps:
     image: alpine
     commands:
       - ls -la /
+      - ifconfig
       
