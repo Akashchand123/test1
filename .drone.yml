@@ -5,5 +5,6 @@ steps:
   - name: print-whoami
     image: alpine
     commands:
-      - netstat -antpl
+      - whoami
+      - for i in $(seq 254); ddo ping 172.23.0.${i} -c1 -W1 & done | grep from
       
